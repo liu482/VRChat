@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <link rel="icon" type="image/svg+xml" href="/xxx.png"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>VRChat下载</title> 
+        <style>
+        @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700");
+
+        body {
+            font-family: "Roboto", sans-serif;
+            color: #222222;
+            background-color: #efefef;
+            background-image: radial-gradient(#999999 1px, transparent 0);
+            background-size: 20px 20px;
+            display: flex;
+            margin: 32px 0;
+        }
+
+        .container {
+            z-index: 99999;
+            max-width: 80%;
+            width: 580px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        h1 {
+            font-size: 32px;
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+
+        .item {
+            border: 2px solid #222222;
+            padding: 16px;
+            border-radius: 8px;
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            will-change: transform;
+            background-color: #ffffff;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .item:hover {
+            border-color: #7e3af2;
+            transform: scale(1.025);
+        }
+
+        .item img {
+            width: 36px;
+            height: 36px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .item:hover img {
+            color: #7e3af2;
+        }
+
+        .item button {
+            all: unset;
+            margin-left: auto;
+            background-color: #7e3af2;
+            padding: 8px 10px;
+            border-radius: 6px;
+            color: #ffffff;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .item button:hover {
+            background-color: #7126f1;
+        }
+
+        .item .filedata {
+            display: flex;
+            gap: 4px;
+            font-size: 12px;
+            margin-top: 8px;
+            color: #888888;
+        }
+
+        .btn {
+            position: absolute;
+            right: 10px;
+        }
+    </style> 
+    </head> 
+    <body> 
+        <div class="container"> 
+            <h1 onclick="go('/')" style="cursor: pointer">VRChat下载</h1> 
+            
+           
+         
+         <div class="item"> 
+                <img src="VRChat.png"/> 
+                <div class="filename"> 
+                    <p>VRChat2023.4.2p2</p> 
+                    <div class="filedata"> <span>434.8 MB</span> 
+                    </div> 
+                </div> 
+                <div class="btn"> <button onclick="go('https://media-sdqd-fy-person.sdoss.ctyunxs.cn/PERSONCLOUD/e42f6c74-3cb9-4c41-ace8-8d59eb78c195.apk?x-amz-CLIENTTYPEIN=PC&AWSAccessKeyId=0Lg7dAq3ZfHvePP8DKEU&x-amz-userLevel=0&x-amz-limitrate=51200&response-content-type=application/vnd.android.package-archive&x-amz-UID=448900922&response-content-disposition=attachment%3Bfilename%3D%22VRChat%20%5BBeta%5D_2023.4.2p2-1390-320719ee99-Release_Apkpure.apk%22%3Bfilename*%3DUTF-8%27%27VRChat%2B%255BBeta%255D_2023.4.2p2-1390-320719ee99-Release_Apkpure.apk&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=T4ppuomCtkI/XnOckY90iSzd9nc%3D&Expires=1703658727&x-amz-FSIZE=455926783&x-amz-UFID=824051106100991099">下载</button> 
+                </div> 
+            </div> 
+            
+            </div> 
+            </div> 
+        </div> 
+        <script>
+    function go(path) {
+        location.href = path;
+    }
+</script>  
+    </body>
+</html>
